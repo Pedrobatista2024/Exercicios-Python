@@ -1,0 +1,6 @@
+tupla = ('brasileirão', 'boafogo', 'pameiras', 'flamengo', 'fortaleza', 'internacional', 'sao paulo', 'corinthias', 'bahia', 'cruzeiro', 'vasco da gama', 'vitoria', 'atletico mg', 'fluminense', 'gremio', 'juventude', 'bragantino', 'athletico pr', 'criciuma', 'atletico go', 'cuiaba')
+print(f'Lista de times do brasileirão {tupla[1:]}')
+print(f'Os 5º primeiros colocados são {tupla[1:6]}')
+print(f'Os 4º ultimos colocados são {tupla[-4:]}')
+print(f'Times em ordem alfabetica{sorted(tupla[1:])}')
+print(f'A posição do fortaleza na tabela é {tupla.index('fortaleza')}º lugar')
